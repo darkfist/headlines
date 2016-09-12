@@ -67,7 +67,7 @@
         <form>
             <input type="text" name="publication" placeholder="search" />
             <input type="submit" value="Submit" /><br>
-            <p>Search headlines from BBC, CNN, Iol and Fox.</p>
+            <p>Search headlines from BBC, CNN and Fox.</p>
         </form><br>
         {% for article in articles %}
             <b><a href="{{article.link}}">{{article.title}}</a></b><br>
